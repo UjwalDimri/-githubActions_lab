@@ -12,7 +12,7 @@ class TestHelloWorld(unittest.TestCase):
         assert isinstance(hello_world(), str)
     def test_welcome_message(self):
         self.assertEqual(welcome_message("Ujwal"),"Welcome to DevOps, Ujwal!")
-    def test_welcome_message_rahul(self):
+    def test_welcome_message_hanu(self):
         self.assertEqual(welcome_message("Hanu"),"Welcome to DevOps, Hanu!")
             
 
