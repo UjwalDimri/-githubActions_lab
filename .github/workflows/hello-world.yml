@@ -40,3 +40,5 @@ jobs:
         with:
           name: hello-world-package
           path: hello-world.zip
+      - name: Validate Python syntax
+        run: python -m py_compile app.py test_app.py
