@@ -6,7 +6,7 @@ from app import welcome_message
 class TestHelloWorld(unittest.TestCase):
 
     def test_hello_world_message(self):
-        self.assertEqual(hello_world(), "Hello, git") #introducing an error
+        self.assertEqual(hello_world(), "Hello, DevOps!") #introducing an error
     
     def test_hello_world_returns_string(self):
         assert isinstance(hello_world(), str)
